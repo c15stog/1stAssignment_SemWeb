@@ -1,0 +1,40 @@
+@prefix st: <http://dilab77.ionio.gr/swp/stogiannou/vocab#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
+@prefix foaf: <http://xmlns.com/foaf/> .
+      
+st:Teacher rdf:type rdfs:Class .                         
+st:Lecture rdf:type rdfs:Class .
+st:Classroom rdf:type rdfs:Class .
+st:Lesson rdf:type rdfs:Class .
+st:Teacher rdfs:subClassOf foaf:Person .
+
+st:deliveredBy rdf:type rdf:Property .
+st:deliveredBy rdfs:domain rdfs:Lecture .
+st:deliveredBy rdfs:range rdfs:Teacher .
+  
+st:in rdf:type rdf:Property .
+st:in rdfs:domain rdfs:Lecture .
+st:in rdfs:range rdfs:Classroom .
+      
+st:includes rdf:type rdf:Property .
+st:includes rdfs:domain rdfs:Lecture .
+st:includes rdfs:range rdfs:Lesson .
+      
+st:day rdf:type rdf:Property .
+st:day rdfs:domain rdfs:Lecture .
+st:day rdfs:range rdfs:Literal .
+      
+st:start_time rdf:type rdf:Property .
+st:start_time rdfs:domain rdfs:Lecture .
+st:start_time rdfs:range xsd:time .
+      
+st:ending_time rdf:type rdf:Property .
+st:ending_time rdfs:domain rdfs:Lecture .
+st:ending_time rdfs:range xsd:time .
+     
+st:semester rdf:type rdf:Property .
+st:semester rdfs:domain rdfs:Lecture .
+st:semester rdfs:range rdfs:Literal .
+

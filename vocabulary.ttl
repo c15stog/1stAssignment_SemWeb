@@ -4,11 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
 @prefix foaf: <http://xmlns.com/foaf/> .
       
-st:Teacher rdf:type rdfs:Class .                         
+st:Teacher rdf:type rdfs:Class .      
+st:Teacher rdfs:subClassOf foaf:Person .
 st:Lecture rdf:type rdfs:Class .
 st:Classroom rdf:type rdfs:Class .
 st:Lesson rdf:type rdfs:Class .
-st:Teacher rdfs:subClassOf foaf:Person .
+
 
 st:deliveredBy rdf:type rdf:Property .
 st:deliveredBy rdfs:domain rdfs:Lecture .

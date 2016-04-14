@@ -1,8 +1,8 @@
-@prefix st: <http://dilab77.ionio.gr/swp/stogiannou/vocab#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
-@prefix foaf: <http://xmlns.com/foaf/> .
+@prefix st:<http://dilab77.ionio.gr/swp/stogiannou/vocab#> .
+@prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:<http://www.w3.org/2001/XMLSchema#> . 
+@prefix foaf:<http://xmlns.com/foaf/> .
       
 st:Teacher rdf:type rdfs:Class .      
 st:Teacher rdfs:subClassOf foaf:Person .

@@ -1,0 +1,33 @@
+<http://dilab77.ionio.gr/swp/stogiannou/resource/STEFANIDAKIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/stogiannou/vocab#Teacher> .
+
+_:bnode1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/stogiannou/vocab#Lecture> .
+
+<http://dilab77.ionio.gr/swp/stogiannou/resource/SEMANTIC%20WEB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/stogiannou/vocab#Lesson> .
+
+<http://dilab77.ionio.gr/swp/stogiannou/resource/LABORATORY%201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/stogiannou/vocab#Classroom> .
+
+<http://dilab77.ionio.gr/swp/stogiannou/resource/PATELI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/stogiannou/vocab#Teacher> .
+
+_:bnode2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/stogiannou/vocab#Lecture> .
+
+<http://dilab77.ionio.gr/swp/stogiannou/resource/E%20COMMERCE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/stogiannou/vocab#Lesson> .
+
+<http://dilab77.ionio.gr/swp/stogiannou/resource/PMS%20KTIRIO%20GALINOS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/stogiannou/vocab#Classroom> .
+
+<http://dilab77.ionio.gr/swp/stogiannou/resource/OIKONOMOU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/stogiannou/vocab#Teacher> .
+
+_:bnode3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/stogiannou/vocab#Lecture> .
+
+<http://dilab77.ionio.gr/swp/stogiannou/resource/VIRTUAL%20WORLDS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/stogiannou/vocab#Lesson> .
+
+<http://dilab77.ionio.gr/swp/stogiannou/resource/MAGKOS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/stogiannou/vocab#Teacher> .
+
+_:bnode4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/stogiannou/vocab#Lecture> .
+
+<http://dilab77.ionio.gr/swp/stogiannou/resource/SECURITY%20OF%20IS%20AND%20NETWORKS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/stogiannou/vocab#Lesson> .
+
+<http://dilab77.ionio.gr/swp/stogiannou/resource/AVLONITIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/stogiannou/vocab#Teacher> .
+
+_:bnode5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/stogiannou/vocab#Lecture> .
+
+<http://dilab77.ionio.gr/swp/stogiannou/resource/MODELLING%20AND%20SIMULATION> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/stogiannou/vocab#Lesson> .
